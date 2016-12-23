@@ -31,77 +31,110 @@
 <p><strong>Stripe:</strong></p>
 
 <p>You can set your own price for every courses that's created. </p>
+<!DOCTYPE html>
+    <html lang="en-us">
+      <head>
+        <meta charset="UTF-8">
+        <title>Spark Platform by laurodev</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+      </head>
+      <body>
+        <section class="page-header">
+          <h1 class="project-name">Spark Platform</h1>
+          <h2 class="project-tagline">Udemy but open source. Create and Sell Online Courses.</h2>
+          <a href="https://github.com/laurodev/Spark Platform" class="btn">View on GitHub</a>
+          <a href="https://github.com/laurodev/Spark Platform/zipball/master" class="btn">Download .zip</a>
+          <a href="https://github.com/laurodev/Spark Platform/tarball/master" class="btn">Download .tar.gz</a>
+        </section>
 
-<p><img src="https://i.imgur.com/FJc4Whb.png?1" alt=""></p>
+        <section class="main-content">
+          <blockquote>
+    <p>With Spark Platform you can create and sell your own courses. </p>
+    </blockquote>
 
-<p><strong>Wistia:</strong> </p>
+    <p><img src="https://camo.githubusercontent.com/fc9b2baa17a25296539edf26efe920652054a99e/687474703a2f2f692e696d6775722e636f6d2f547776565079642e706e67" alt=""></p>
 
-<p>We are using the Wistia API to manage our content. All you have to do is pull out the last digits on the URL from your video. </p>
+    <h2>
+    <a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
 
-<p>Example: <a href="https://setih.wistia.com/medias/pz88xvd5uk">https://setih.wistia.com/medias/pz88xvd5uk</a></p>
+    <p><strong>Stripe:</strong></p>
 
-<p>Add <strong>pz88xvd5uk</strong> when creating a course intro or lesson. </p>
+    <p>You can set your own price for every courses that's created. </p>
 
-<p><img src="https://i.imgur.com/EElmXzU.png?1" alt=""></p>
+    <p><img src="https://i.imgur.com/FJc4Whb.png?1" alt=""></p>
 
-<p><strong>Markdown:</strong> </p>
+    <p><strong>Wistia:</strong> </p>
 
-<p>We also love markdown. So to create those lessons notes we are using github-markdown. And that also means that you can add emojis. </p>
+    <p>We are using the Wistia API to manage our content. All you have to do is pull out the last digits on the URL from your video. </p>
 
-<p><strong>Materialize Design:</strong> </p>
+    <p>Example: <a href="https://setih.wistia.com/medias/pz88xvd5uk">https://setih.wistia.com/medias/pz88xvd5uk</a></p>
 
-<p>You can customize the design. We are using <a href="https://materializecss.com/">Materialize css</a>. Its pretty nice.   </p>
+    <p>Add <strong>pz88xvd5uk</strong> when creating a course intro or lesson. </p>
 
-<p><strong>Autenticación:</strong> </p>
+    <p><img src="https://i.imgur.com/EElmXzU.png?1" alt=""></p>
 
-<p>We currently support authenticación with Devise. And for email support and sending receipts we are using Mandril. </p>
+    <p><strong>Markdown:</strong> </p>
 
-<p><strong>Note:</strong> We will soon make an upgrade to sendgrid. </p>
+    <p>We also love markdown. So to create those lessons notes we are using github-markdown. And that also means that you can add emojis. </p>
 
-<p><img src="https://i.imgur.com/BCH66zr.png" alt=""></p>
+    <p><strong>Materialize Design:</strong> </p>
 
-<p><strong>Admin Interface:</strong></p>
+    <p>You can customize the design. We are using <a href="https://materializecss.com/">Materialize css</a>. Its pretty nice.   </p>
 
-<p>For our admin interface we are using ActiveAdmin. You can easily manage every course and every lesson using sortable tree. </p>
+    <p><strong>Autenticación:</strong> </p>
 
-<p><img src="https://i.imgur.com/Kd8qjfA.png" alt=""></p>
+    <p>We currently support authenticación with Devise. And for email support and sending receipts we are using Mandril. </p>
 
-<h2>
-<a id="installing" class="anchor" href="#installing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installing</h2>
+    <p><strong>Note:</strong> We will soon make an upgrade to sendgrid. </p>
 
-<p>Fork or download the repo. </p>
+    <p><img src="https://i.imgur.com/BCH66zr.png" alt=""></p>
 
-<p><strong>We are using:</strong> </p>
+    <p><strong>Admin Interface:</strong></p>
 
-<ul>
-<li>Rails 4.2.0</li>
-<li>Ruby 2.3.0</li>
-<li>Sqlite3 3.15.0 </li>
-</ul>
+    <p>For our admin interface we are using ActiveAdmin. You can easily manage every course and every lesson using sortable tree. </p>
 
-<h2>
-<a id="variables" class="anchor" href="#variables" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Variables</h2>
+    <p><img src="https://i.imgur.com/Kd8qjfA.png" alt=""></p>
 
-<p>You need to change these variables, using your keys: </p>
+    <h2>
+    <a id="installing" class="anchor" href="#installing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installing</h2>
 
-<ul>
-<li>STRIPE_SECRET_KEY: ''</li>
-<li>STRIPE_PUBLIC_KEY: ''</li>
-<li>MAILER_API_KEY: ''</li>
-</ul>
+    <p>Fork or download the repo. </p>
 
-<h2>
-<a id="deployment" class="anchor" href="#deployment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deployment</h2>
+    <p><strong>We are using:</strong> </p>
 
-<p>Pending todo. Create a tutorial to upload to AWS or Heroku. </p>
+    <ul>
+    <li>Rails 4.2.0</li>
+    <li>Ruby 2.3.0</li>
+    <li>Sqlite3 3.15.0 </li>
+    </ul>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/laurodev/Odamy">Odamy</a> is maintained by <a href="https://github.com/laurodev">laurodev</a>.</span>
+    <h2>
+    <a id="variables" class="anchor" href="#variables" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Variables</h2>
 
-      </footer>
+    <p>You need to change these variables, using your keys: </p>
 
-    </section>
+    <ul>
+    <li>STRIPE_SECRET_KEY: ''</li>
+    <li>STRIPE_PUBLIC_KEY: ''</li>
+    <li>MAILER_API_KEY: ''</li>
+    </ul>
 
-  
-  </body>
-</html>
+    <h2>
+    <a id="deployment" class="anchor" href="#deployment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deployment</h2>
+
+    <p>Pending todo. Create a tutorial to upload to AWS or Heroku. </p>
+
+          <footer class="site-footer">
+            <span class="site-footer-owner"><a href="https://github.com/laurodev/Spark Platform">Spark Platform</a> is maintained by <a href="https://github.com/laurodev">laurodev</a>.</span>
+
+          </footer>
+
+        </section>
+
+      
+      </body>
+    </html>
