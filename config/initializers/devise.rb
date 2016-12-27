@@ -1,6 +1,6 @@
 Devise.setup do |config|
 
-  config.mailer_sender = 'Odamy <hola@Odamy>'
+  config.mailer_sender = 'Spark <hola@Spark>'
 
   require 'devise/orm/active_record'
 

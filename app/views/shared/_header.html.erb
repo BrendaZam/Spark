@@ -2,7 +2,7 @@
 <header style="margin-bottom: 3em;">
     <!-- Dropdown Structure -->
     <ul id="dropdown1" class="dropdown-content mask">
-        <li><%= link_to "New account", edit_user_registration_path %></li>
+        <li><%= link_to "My account", edit_user_registration_path %></li>
         <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
     </ul>
     <ul id="dropdown2" class="dropdown-content mask">
@@ -12,7 +12,7 @@
     <nav class="light-red darken-1 z-depth-2">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="/" class="brand-logo" style="padding-top: 4px;">Odamy</a>
+                <a href="/" class="brand-logo" style="padding-top: 4px;">Spark</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <% if(!user_signed_in?) %>
@@ -29,7 +29,7 @@
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <% if(!user_signed_in?) %>
-                    <li><%= link_to "New account", new_user_registration_path %></li>
+                    <li><%= link_to "My account", new_user_registration_path %></li>
                     <li><%= link_to "Login", new_user_session_path %></li>
                     <% else%>
                     <!-- Dropdown Trigger -->

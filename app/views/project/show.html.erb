@@ -1,5 +1,5 @@
 <% content_for :head do %>
-<title><%= @project.name %> | Odamy </title>
+<title><%= @project.name %> | Spark </title>
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@laurodev">
@@ -8,7 +8,7 @@
 	<meta name="twitter:description" content="<%= @project.content %>">
 	<meta name="twitter:image:src" content="<%= image_url @project.image %>">
 	<!-- Open Graph data -->
-	<meta property="og:site_name" content="Odamy">
+	<meta property="og:site_name" content="Spark">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="<%= @project.name %>">
 	<meta property="og:description" content="<%= @project.content %>">
@@ -97,7 +97,7 @@
 
                     $('#btn-buy').on('click', function(e) {
                       handler.open({
-                        name: 'Odamy',
+                        name: 'Spark',
                         description: '<%= @project.name %>',
                         amount: '<%= @project.price_in_cents %>',
                         email: '<%= current_user.email %>'

@@ -1,5 +1,5 @@
-#Odamy
-> With Odamy you can create and sell your own courses. It's like Udamy but open source. 
+#Spark
+> With Spark you can create and sell your own courses. It's like Udamy but open source. 
 
 <img src="https://camo.githubusercontent.com/fc9b2baa17a25296539edf26efe920652054a99e/687474703a2f2f692e696d6775722e636f6d2f547776565079642e706e67" alt="" data-canonical-src="https://i.imgur.com/TwvVPyd.png" style="max-width:100%;box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);">
 
