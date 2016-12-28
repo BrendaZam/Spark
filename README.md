@@ -19,15 +19,6 @@ We are using the Wistia API to manage our content. All you have to do is pull ou
 Ejample: https://setih.wistia.com/medias/pz88xvd5uk
 
 
-Add **pz88xvd5uk** when creating a course intro or lesson. 
-
-
-![](https://i.imgur.com/EElmXzU.png?1)
-
-**Markdown:** 
-
-We also love markdown. So to create those lessons notes we are using github-markdown. And that also means that you can add emojis. 
-
 #Spark
 
 Spark is an open source, hackable plataform to sell your own courses. 
