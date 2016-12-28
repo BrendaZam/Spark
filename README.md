@@ -28,6 +28,34 @@ Add **pz88xvd5uk** when creating a course intro or lesson.
 
 We also love markdown. So to create those lessons notes we are using github-markdown. And that also means that you can add emojis. 
 
+#Spark
+
+Spark is an open source, hackable plataform to sell your own courses. 
+
+
+
+#Features
+
+**Stripe:**
+
+You can set your own price for every courses that's created. 
+
+
+
+**Wistia:** 
+
+We are using the Wistia API to manage our content. All you have to do is pull out the last digits on the URL from your video. 
+
+Ejample: https://setih.wistia.com/medias/pz88xvd5uk
+
+
+Add **pz88xvd5uk** when creating a course intro or lesson. 
+
+
+**Markdown:** 
+
+We also love markdown. So to create those lessons notes we are using github-markdown. And that also means that you can add emojis. 
+
 
 **Materialize Design:** 
 
@@ -40,16 +68,14 @@ We currently support authentication with Devise. And for email support and sendi
 
 **Note:** We will soon make an upgrade to sendgrid. 
 
-![](https://i.imgur.com/BCH66zr.png)
 
 **Admin Interface:**
 
 For our admin interface we are using ActiveAdmin. You can easily manage every course and every lesson using sortable tree. 
 
-![](https://i.imgur.com/Kd8qjfA.png)
 
 
-## Installing 
+# Installing 
 
 
 Fork or download the repo. 
@@ -63,7 +89,7 @@ Fork or download the repo.
 - Sqlite3 3.15.0 
 
 
-## Variables
+# Variables
 
 
 You need to set these variables, using your keys: 
@@ -74,6 +100,6 @@ You need to set these variables, using your keys:
 - MAILER_API_KEY: ''
 
 
-## Deployment
+# Deployment
 
-Pending todo. Create a tutorial to upload to AWS or Heroku. 
+Pending TODO. Create a tutorial to upload to AWS or Heroku. 
