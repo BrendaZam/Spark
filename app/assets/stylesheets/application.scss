@@ -8,20 +8,20 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-color: #ffffff;
-    color: #1b3552;
+    color: #56686f;
     font-weight: 300;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
 
 }
 html {
-    color: #1b3552;
+    color: #56686f;
     font-family: 'Roboto', sans-serif;
 }
 
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: #1b3552;
+    color: #56686f;
     font-variant-ligatures: common-ligatures;
     margin-top: 25px;
     font-weight: 300;
@@ -93,12 +93,12 @@ main {
 
 
 input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #3a77d7;
-    box-shadow: 0 1px 0 0 #3a77d7;
+    border-bottom: 1px solid #4d92f9;
+    box-shadow: 0 1px 0 0 #4d92f9;
 }
 input:not([type]).valid, input:not([type]):focus.valid, input[type=text].valid, input[type=text]:focus.valid, input[type=password].valid, input[type=password]:focus.valid, input[type=email].valid, input[type=email]:focus.valid, input[type=url].valid, input[type=url]:focus.valid, input[type=time].valid, input[type=time]:focus.valid, input[type=date].valid, input[type=date]:focus.valid, input[type=datetime].valid, input[type=datetime]:focus.valid, input[type=datetime-local].valid, input[type=datetime-local]:focus.valid, input[type=tel].valid, input[type=tel]:focus.valid, input[type=number].valid, input[type=number]:focus.valid, input[type=search].valid, input[type=search]:focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid {
-    border-bottom: 1px solid #3a77d7;
-    box-shadow: 0 1px 0 0 #3a77d7;
+    border-bottom: 1px solid #4d92f9;
+    box-shadow: 0 1px 0 0 #4d92f9;
 }
 
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
@@ -131,7 +131,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .collection a.collection-item {
     display: block;
     transition: .25s;
-    color: #1b3552;
+    color: #56686f;
     border-radius: 2px;
 }
 .collection a.collection-item:not(.active):hover {
@@ -156,7 +156,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     opacity: 1 !important;
     transition: box-shadow .25s !important;
     border: 0px solid #dddddd !important;
-    background-color: #3a77d7 !important;
+    background-color: #4d92f9 !important;
     border: 0px solid #dddddd !important;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0), 0 2px 10px 0 rgba(0, 0, 0, 0) !important;
 }
@@ -184,7 +184,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     border-radius: 50%;
 }
 .tabs .tab {
-    background-color: #3a77d7;
+    background-color: #4d92f9;
 }
 
 .tabs .tab a {
@@ -223,7 +223,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .tabs .tab a:hover {
     color: #ffffff;
     border-radius: 10px;
-    background: #3a77d7;
+    background: #4d92f9;
 }
 
 .tabs {
@@ -300,7 +300,7 @@ nav ul a {
     margin-top: 3px;
 }
 .dropdown-content {
-    background-color: #3a77d7;
+    background-color: #4d92f9;
 }
 
 footer.page-footer {
@@ -313,10 +313,10 @@ nav {
     width: 100%;
     height: 65px;
     line-height: 56px;
-    background: #3a77d7;
+    background: #4d92f9;
 }
 .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
-    background: #3a77d7;
+    background: #4d92f9;
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
@@ -325,7 +325,7 @@ nav {
     display: block;
     line-height: 22px;
     padding: 14px 16px;
-    background: #3a77d7;
+    background: #4d92f9;
 }
 
 .dropdown-content li {
@@ -370,7 +370,7 @@ nav {
     color: white;
     opacity: 0.9;
     outline: none;
-    background: linear-gradient(-224deg, #3a77d7 0%, #3a77d7 100%) ;
+    background: linear-gradient(-224deg, #4d92f9 0%, #4d92f9 100%) ;
 }
 .card .card-content {
     padding: 20px;
@@ -453,7 +453,7 @@ content p {
     color: #444444 !important;
 }
 .grey-text.text-darken-4 {
-    color: #1b3552 !important;
+    color: #56686f !important;
 }
 footer.page-footer .footer-copyright {
     overflow: hidden;
@@ -565,14 +565,14 @@ nav a {
 }
 
 .pink.darken-2 {
-    background-color: #3a77d7 !important;
+    background-color: #4d92f9 !important;
     text-decoration: none;
     color: #ffffff;
     text-align: center;
     letter-spacing: 1.5px;
     background: #1af8e5;
     border-radius: 4px;
-    border: 1px solid #3a77d7;
+    border: 1px solid #4d92f9;
 }
 
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
@@ -608,21 +608,21 @@ a {
     text-decoration: none;
 }
 .plain-link {
-    color: #1b3552;
+    color: #56686f;
     font-weight: 800;
 }
 
 a {
-    color: #3a77d7;
+    color: #4d92f9;
 }
 blockquote {
     margin: 20px 0;
     padding-left: 1.5rem;
-    border-left: 5px solid #3a77d7;
+    border-left: 5px solid #4d92f9;
 }
 
 .sky-hero {
-    background: #3a77d7;
+    background: #4d92f9;
     padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
@@ -726,17 +726,17 @@ blockquote {
     color: #ffffff;
     text-align: center;
     letter-spacing: 1.5px;
-    background: #3a77d7;
+    background: #4d92f9;
     border-radius: 4px;
-    border: 1px solid #3a77d7;
+    border: 1px solid #4d92f9;
 }
 
 button:focus {
     outline: none;
-    background-color: #3a77d7;
+    background-color: #4d92f9;
 }
 .btn:hover, .btn-large:hover {
-    background: #3a77d7;
+    background: #4d92f9;
 }
 #sub ul li {
     list-style-type: disc;

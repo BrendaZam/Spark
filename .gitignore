@@ -21,6 +21,7 @@
 
 # Ignore DS_Store
 .DS_Store
+.development.sqlite3
 
 # Ignore Emacs temporary files
 *~
