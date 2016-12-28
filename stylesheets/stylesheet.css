@@ -7,8 +7,10 @@ body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #606c71;
-    background: #fffff7; }
+    color: #1b3552;
+    background: #ffffff;
+}
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -253,11 +255,8 @@ a {
 .page-header {
     color: #fff;
     text-align: center;
-    background-color: #e5595a;
-    background-image: linear-gradient(120deg, #e55959, #e5595a);
+    background-color: #ffffff;
+    background-image: linear-gradient(120deg, #ffffff, #ffffff);
 }
 
-img {
-    border-radius: 10px;
-    box-shadow: 0 15px 35px rgba(50,50,93,0.1),0 5px 15px rgba(0,0,0,0.07);
-}
+
